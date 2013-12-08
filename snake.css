@@ -1,0 +1,28 @@
+html,body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#sboard {
+  width: 80%;
+  height: 80%;
+  min-width: 300px;
+  min-height: 300px;
+  margin: auto;
+}
+
+.row {
+  display: block;
+  overflow: hidden;
+}
+
+.tile {
+  border: 1px solid gray;
+  float: left;
+  width: 25%;
+  height: 25%;
+  background: white;
+  box-sizing: border-box;
+  display: inline-block;
+}

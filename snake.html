@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="snake.css">
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="keymaster.min.js" type="text/javascript"></script>
+    <script src="snake.js" type="text/javascript"></script>
+		<script>
+		$(function() {
+			window.snake = new window.Snakes.Game($("#sboard"));
+			snake.start();
+		});
+		</script>
+  </head>
+
+  <body>
+    <h1>Snake</h1>
+    <div id="sboard"></div>
+  </body>
+</html>
